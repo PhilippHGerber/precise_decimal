@@ -23,8 +23,7 @@ final class FiniteDecimal extends BigDecimal {
     super.unscaledValue,
     super._scale, {
     bool isNegativeZero = false,
-  })  : _isNegativeZero =
-            isNegativeZero && internal_ops.coefficientSign(unscaledValue) == 0,
+  })  : _isNegativeZero = isNegativeZero && internal_ops.coefficientSign(unscaledValue) == 0,
         super.internal();
 
   final bool _isNegativeZero;

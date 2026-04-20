@@ -57,8 +57,7 @@ sealed class BigDecimal implements Comparable<BigDecimal> {
 
   /// Creates a decimal from an unscaled value and an explicit scale.
   @internal
-  BigDecimal.internal(Object unscaledValue, this._scale)
-      : _unscaled = unscaledValue;
+  BigDecimal.internal(Object unscaledValue, this._scale) : _unscaled = unscaledValue;
 
   /// Parses [source] as a decimal value.
   factory BigDecimal.parse(String source) => parser.parseBigDecimal(source);
