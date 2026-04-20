@@ -1,0 +1,22 @@
+name: precise_decimal
+description: Arbitrary-precision decimal arithmetic for Dart, built toward full General Decimal Arithmetic (GDA) compliance.
+version: 0.0.1
+repository: https://github.com/PhilippHGerber/precise_decimal
+homepage: https://github.com/PhilippHGerber/precise_decimal
+issue_tracker: https://github.com/PhilippHGerber/precise_decimal/issues
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  meta: ^1.17.0
+
+dev_dependencies:
+  test: ^1.31.0
+  very_good_analysis: ^10.2.0
+
+topics:
+  - decimal
+  - arithmetic
+  - finance
+  - precision

@@ -1,0 +1,7 @@
+# dart_test.yaml
+tags:
+  slow:
+    timeout: 10x
+
+# Exclude tests tagged with 'slow' by default
+exclude_tags: "slow"
