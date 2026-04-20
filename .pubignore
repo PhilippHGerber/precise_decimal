@@ -1,0 +1,6 @@
+benchmark/
+build/
+coverage/
+doc/
+tool/
+test/testdata
