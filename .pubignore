@@ -3,4 +3,4 @@ build/
 coverage/
 doc/
 tool/
-test/testdata
+test/testdata/dectest-all
